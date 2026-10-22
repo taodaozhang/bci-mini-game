@@ -9,19 +9,234 @@
       "sha256": "96aa7cbbb6adf0c812a32ca52e9553029685f504f17cffeefac4f8364c556879"
     },
     {
-      "name": "bci-mini-game-full-2026-10-22.zip.002",
-      "bytes": 1073741824,
-      "sha256": "956a832d6b5775cc090fba9ad52353100ed0f9624c5f5540b967c0fd16294f07"
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk002",
+      "bytes": 67108864,
+      "sha256": "faadf93cd02a514812e710696adea50c9cbadbfc223dec2600be066e9723485d"
     },
     {
-      "name": "bci-mini-game-full-2026-10-22.zip.003",
-      "bytes": 1073741824,
-      "sha256": "617317dd524f6ee5b1ac10840c58d5f1a293e60b0830d6b1dcab2b02fdbc4cfa"
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk003",
+      "bytes": 67108864,
+      "sha256": "bd3441c0607e5fc8fe646e9fe4624c94ae00e43d1cc0991bc4529b82bb54b3e6"
     },
     {
-      "name": "bci-mini-game-full-2026-10-22.zip.004",
-      "bytes": 930399834,
-      "sha256": "22fa0d4fca976c8b6249238bfa58da2d1d66117ee4c381fa4c014a3ebe01ebff"
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk004",
+      "bytes": 67108864,
+      "sha256": "4ee43e4084a5b0741a9a1311fb97350e03e4dc09c5e3ad50d4f049bc3df02bc2"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk005",
+      "bytes": 67108864,
+      "sha256": "23619527a3052fa7a731149009fde6684b2775d94e93f9a7b8c0e2c94a838c4c"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk006",
+      "bytes": 67108864,
+      "sha256": "d3f7a31ac8a886f732b1ff280dd9b6954e6490a03e1c553de386ea54fe3c5e87"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk007",
+      "bytes": 67108864,
+      "sha256": "c7360afc18999fc491edb4ad6bbd93cb50607a4fb089d692406c7068b1720c7a"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk008",
+      "bytes": 67108864,
+      "sha256": "5d744c39e75a6094b250003bb3f4d4e820dabfa7bed18f20bc698b2a6a934d71"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk009",
+      "bytes": 67108864,
+      "sha256": "173227443cff4576240c731669c4a8fbc1a19e2bd75068ec1e5af9bec2c46388"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk010",
+      "bytes": 67108864,
+      "sha256": "0866db005e3ce1969bd3c82971f118f91386dc4ee6fc1bb0f6d12fa3f49f053d"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk011",
+      "bytes": 67108864,
+      "sha256": "be74059fb3926e5a9d2e882aa74aae8ec89925c0f2c0f4a47a29cc55a7a69ae1"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk012",
+      "bytes": 67108864,
+      "sha256": "ef56c5ef089a50b58024df1f07d5165c4e762be99fe3c838f1cc3831022103c7"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk013",
+      "bytes": 67108864,
+      "sha256": "44661464c9938ca0bec188ba4fbd27adec80bec615591fba3ffcccbf98874bfb"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk014",
+      "bytes": 67108864,
+      "sha256": "2d62838c62af5af989cf7e32958d01b7a54509cfe049606428e249cddea0049a"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk015",
+      "bytes": 67108864,
+      "sha256": "cca06ce177cfa91e54db5110e4021aa1ec2278f2a5df45f6daef32c5e201bfa6"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk016",
+      "bytes": 67108864,
+      "sha256": "f8784d25abcaeb2b9bd64a594138c5dbe2025af380e710bf3f50ed2d1b0b8801"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk017",
+      "bytes": 67108864,
+      "sha256": "29dc774e2d74bc7c74f12fbf979bffca6c1f5c8cd5f0aadb8fffb7863532adb7"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk018",
+      "bytes": 67108864,
+      "sha256": "6913d63737f63d01448bbbc007c310accb729a318866e8dbe517680d53ac7fcb"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk019",
+      "bytes": 67108864,
+      "sha256": "3be4dc28f88611db58c983bdfbe37aadaddcb173d3839104950e58f5410b1cfd"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk020",
+      "bytes": 67108864,
+      "sha256": "38d2ba2e85d63728bdd2f045252b4b73c3e8291acbe434f2328e0114472e0f75"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk021",
+      "bytes": 67108864,
+      "sha256": "c22bf05213c36d3f8cc7c6c52c9ca9fb3ab81a5d48c6e06f048a2faf7a175dea"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk022",
+      "bytes": 67108864,
+      "sha256": "cbb7a451bfa5e02a9458f3954ab8173c99c8157b3b1a948d366b939049d099d3"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk023",
+      "bytes": 67108864,
+      "sha256": "932a00892343012878c9131e8000cd86e0ce3b9b97f29c3a58e326bb32fbfa21"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk024",
+      "bytes": 67108864,
+      "sha256": "ffe5962a111bcc90165694796801d14a8eb6fa8d137d2aff897fc4d005bda34b"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk025",
+      "bytes": 67108864,
+      "sha256": "f6877e1e906fc7d459d8e6d9d8b1663a965d89d884d74f81dda326dbdcd555a3"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk026",
+      "bytes": 67108864,
+      "sha256": "ec6862a305113c8bfeff39b7c7016d26cca74ad98bcc1c5772fc94f6c370b232"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk027",
+      "bytes": 67108864,
+      "sha256": "62572898bd7b9adbc9ab831e53ae2b2410dc36b0c50e77513e0462833640ba95"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk028",
+      "bytes": 67108864,
+      "sha256": "bfb19da9e6b82dabfdda869bd0822b18daa11d510b7bfd0689f34b7f55b86635"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk029",
+      "bytes": 67108864,
+      "sha256": "cd62da7648e1ff57eef96c24692574f78af9ebee2763ff9abd851a3521e2d90c"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk030",
+      "bytes": 67108864,
+      "sha256": "4363b820940309646897fbc4d8f5a53173285376bb8d40077dd2dc5f2badb550"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk031",
+      "bytes": 67108864,
+      "sha256": "ac83b4a24d9c1b1877542921de2151235d536dc238d9fcb815d123afc616b55e"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk032",
+      "bytes": 67108864,
+      "sha256": "e8c42b474d29c2b8062d172cac7d13d8b71027d1977be793b740a96edecff48b"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk033",
+      "bytes": 67108864,
+      "sha256": "5c8921477c4327bc795aa690ecdf1ad0dc3895dae1b5be132d3af96f72e4364e"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk034",
+      "bytes": 67108864,
+      "sha256": "ca2d20b57955c7aee8b4471a1eabfb27deddb5b0b89c34271c51a636a1244fe6"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk035",
+      "bytes": 67108864,
+      "sha256": "cb274a73a020644bcae0e892240db053da8b6b81be22b057a54f4b12c30e6c53"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk036",
+      "bytes": 67108864,
+      "sha256": "12360ba3b83b1571c9e688816d5fd58e92561cae572558ad4bd688122b82a91d"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk037",
+      "bytes": 67108864,
+      "sha256": "dd86ad1ca511e7713808cb8871656df1a474dd127988c538d3dd3b11aa0764c9"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk038",
+      "bytes": 67108864,
+      "sha256": "5f3ac8f4954bf68949c15d2aff43b6ce6eb90b32802124191385d9f3020a6e1d"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk039",
+      "bytes": 67108864,
+      "sha256": "092421bf061edacc5d4054d6260274aabfbb7a8cc406f8d33282934d32ed1027"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk040",
+      "bytes": 67108864,
+      "sha256": "72e5842f36c4f988564e318d0fbaaf7596b9cc1eaa6c49591a4c155572b36e10"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk041",
+      "bytes": 67108864,
+      "sha256": "cbbd8c6d43451d3732ff0fdfb1c041e1321afc4d1df5b1b40319917792b9639e"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk042",
+      "bytes": 67108864,
+      "sha256": "0c5b33f9ce5d42d0542fabac9b20b591bf4353210c96354d72a0e0660c29b8ac"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk043",
+      "bytes": 67108864,
+      "sha256": "4879c46d7a4337b40c2ffb404055bd8abd5ad3c631194d4dd453db93987d5a9c"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk044",
+      "bytes": 67108864,
+      "sha256": "5569032ef2345e598217e84f1bd1d95dd092f180b968dbdcdf6a7a08c3d544db"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk045",
+      "bytes": 67108864,
+      "sha256": "afe4b91f9e16eb8bca040ea8469f4a23d7a50332063f44fbb19aac12f9792296"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk046",
+      "bytes": 67108864,
+      "sha256": "572b53ef597cce613f224125acd29e4f493ab5e55f4a5cf9dbd13be297461196"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.chunk047",
+      "bytes": 57984602,
+      "sha256": "5af2e833afee63f0ab10fd6de3d46b423f38e219fb5e215726718c1619e5dafb"
     }
   ],
   "restore_folder": "脑机小游戏",

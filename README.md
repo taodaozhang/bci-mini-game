@@ -8,6 +8,14 @@
 
 在本仓库 **Releases** 中下载完整项目快照的全部分卷及 `parts.json`，再下载仓库里的 `restore_project.ps1`。
 
+完整快照共有 47 个分卷，清单中的第一卷约 1 GiB，其余分卷不超过 64 MiB。分卷大小不同，顺序由 `parts.json` 决定。使用较小分卷是为了减少网络超时后重传的数据量。
+
+如果已经安装 GitHub CLI 并登录此私有仓库的授权账号，可以一次下载全部文件：
+
+```powershell
+gh release download v1.0.0-archive-20261022 --repo taodaozhang/bci-mini-game --dir bci-backup
+```
+
 在这些文件所在目录运行：
 
 ```powershell

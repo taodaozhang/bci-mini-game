@@ -1,0 +1,208 @@
+{
+  "models": {
+    "selected_00": {
+      "filename": "BNCI2014_001_selected_fold00.joblib",
+      "sha256": "00c31a5480ae9cb742fa71439e90474f0608f4eae61933a0ef57343e41e58066",
+      "test_subjects": [
+        3
+      ]
+    },
+    "aligned_00": {
+      "filename": "BNCI2014_001_aligned_fold00.joblib",
+      "sha256": "02489a90b324805c4b5f7ed2de2856a5e3e1345899499007550c7247eb40d381",
+      "test_subjects": [
+        3
+      ]
+    },
+    "neural_00": {
+      "filename": "BNCI2014_001_neural_fold00.joblib",
+      "sha256": "7ae36364f374f8be681eb812d49be84bd98f6c6de5c54341cfea428607da2a4c",
+      "test_subjects": [
+        3
+      ]
+    },
+    "selected_01": {
+      "filename": "BNCI2014_001_selected_fold01.joblib",
+      "sha256": "accdb18a5e17577c7111b9e29d869bf569f8d8f4d4728cab8a7debe5228bbba8",
+      "test_subjects": [
+        5
+      ]
+    },
+    "aligned_01": {
+      "filename": "BNCI2014_001_aligned_fold01.joblib",
+      "sha256": "9994fdb70ac9d612d6e663e3453858fb95da5208c97954fdf26caf9f5de54afc",
+      "test_subjects": [
+        5
+      ]
+    },
+    "neural_01": {
+      "filename": "BNCI2014_001_neural_fold01.joblib",
+      "sha256": "368b311fadcc27183af281481558306cd6fff9cf63e7f8671722a3ed41d8e09b",
+      "test_subjects": [
+        5
+      ]
+    },
+    "selected_02": {
+      "filename": "BNCI2014_001_selected_fold02.joblib",
+      "sha256": "d5e84e00ebca1de058a90b258bd89a84f124e55ab48c6b950f6d9b00a511998c",
+      "test_subjects": [
+        7
+      ]
+    },
+    "aligned_02": {
+      "filename": "BNCI2014_001_aligned_fold02.joblib",
+      "sha256": "4b541bdb06d1db3afb7d9413649ecf266dc62ac82f7f892993b98f7da212f5eb",
+      "test_subjects": [
+        7
+      ]
+    },
+    "neural_02": {
+      "filename": "BNCI2014_001_neural_fold02.joblib",
+      "sha256": "d5e84e00ebca1de058a90b258bd89a84f124e55ab48c6b950f6d9b00a511998c",
+      "test_subjects": [
+        7
+      ]
+    },
+    "selected_03": {
+      "filename": "BNCI2014_001_selected_fold03.joblib",
+      "sha256": "dfcae3b75b49e13e8f4514db1ab485b06e2eefd6ed3146b371edb5cd0424a773",
+      "test_subjects": [
+        9
+      ]
+    },
+    "aligned_03": {
+      "filename": "BNCI2014_001_aligned_fold03.joblib",
+      "sha256": "cc94ec306c332410d71f920088ed84a4dc104384e1d815bf6dfe7acf4267af2e",
+      "test_subjects": [
+        9
+      ]
+    },
+    "neural_03": {
+      "filename": "BNCI2014_001_neural_fold03.joblib",
+      "sha256": "2a3cc767fceb3bb6ed73ba27ade8f6d6428a5a89361a0bc6e72f862bce6f7b85",
+      "test_subjects": [
+        9
+      ]
+    },
+    "selected_04": {
+      "filename": "BNCI2014_001_selected_fold04.joblib",
+      "sha256": "35895599a2533a1240bf3efc00442692ea539a92c74d49742c260f68dff7a4a1",
+      "test_subjects": [
+        6
+      ]
+    },
+    "aligned_04": {
+      "filename": "BNCI2014_001_aligned_fold04.joblib",
+      "sha256": "b411848fa0e0359151f6d86bcd795e70100ce709c152605e15eaf76d448d0472",
+      "test_subjects": [
+        6
+      ]
+    },
+    "neural_04": {
+      "filename": "BNCI2014_001_neural_fold04.joblib",
+      "sha256": "35895599a2533a1240bf3efc00442692ea539a92c74d49742c260f68dff7a4a1",
+      "test_subjects": [
+        6
+      ]
+    },
+    "selected_05": {
+      "filename": "BNCI2014_001_selected_fold05.joblib",
+      "sha256": "ebfeb8b53404af3361779942e44e45b465d6d381ee768b6b62f70a4c07044db7",
+      "test_subjects": [
+        4
+      ]
+    },
+    "aligned_05": {
+      "filename": "BNCI2014_001_aligned_fold05.joblib",
+      "sha256": "f38d01d890029d9129af0eea3856e144967671bf899256df43f6df337778cdcd",
+      "test_subjects": [
+        4
+      ]
+    },
+    "neural_05": {
+      "filename": "BNCI2014_001_neural_fold05.joblib",
+      "sha256": "64fa79751a8cff053d9882dbf553eb0ddc5dc75cf7b0a3f1e7f1be8179ae3c80",
+      "test_subjects": [
+        4
+      ]
+    },
+    "selected_06": {
+      "filename": "BNCI2014_001_selected_fold06.joblib",
+      "sha256": "6945cbb884257cd226cdec9d0b69b0b5c056e4292d13e71173988b8419ebf900",
+      "test_subjects": [
+        8
+      ]
+    },
+    "aligned_06": {
+      "filename": "BNCI2014_001_aligned_fold06.joblib",
+      "sha256": "875fd1bb21f63cf8496150a34f41e33b6d09279e1cb667d40a9e50d0c63750b5",
+      "test_subjects": [
+        8
+      ]
+    },
+    "neural_06": {
+      "filename": "BNCI2014_001_neural_fold06.joblib",
+      "sha256": "9b83d06b4a4b52ac9d49741170c35cfa6013dde9229804abfdea11758cfe29b8",
+      "test_subjects": [
+        8
+      ]
+    },
+    "selected_07": {
+      "filename": "BNCI2014_001_selected_fold07.joblib",
+      "sha256": "bc324ddc40f8d147892c07c19333221b38b747b859f807bc37f2ee37612f5398",
+      "test_subjects": [
+        1
+      ]
+    },
+    "aligned_07": {
+      "filename": "BNCI2014_001_aligned_fold07.joblib",
+      "sha256": "d0bad565a1d29204386986332fe5ea0376128ea03895cdfd2993fa46d9077ffe",
+      "test_subjects": [
+        1
+      ]
+    },
+    "neural_07": {
+      "filename": "BNCI2014_001_neural_fold07.joblib",
+      "sha256": "38048b65191a2be863e62f01933930e242245f9ddf0822fa8014df2dd37d1519",
+      "test_subjects": [
+        1
+      ]
+    },
+    "selected_08": {
+      "filename": "BNCI2014_001_selected_fold08.joblib",
+      "sha256": "317b919627ae94334c6936f62bc74424c261c6bc56d7c5c82eac83d3ef908fc9",
+      "test_subjects": [
+        2
+      ]
+    },
+    "aligned_08": {
+      "filename": "BNCI2014_001_aligned_fold08.joblib",
+      "sha256": "6120288f7958805c7ee7e4c069e9b7ef86afe7ee96e76d9ec3b9ca2a7732ad28",
+      "test_subjects": [
+        2
+      ]
+    },
+    "neural_08": {
+      "filename": "BNCI2014_001_neural_fold08.joblib",
+      "sha256": "4d2e3d0ff2dc17eaf0472c1e50cbe2dd6bc0846168df76c163663970b7653818",
+      "test_subjects": [
+        2
+      ]
+    }
+  },
+  "heldout_folds": {
+    "3": "00",
+    "5": "01",
+    "7": "02",
+    "9": "03",
+    "6": "04",
+    "4": "05",
+    "8": "06",
+    "1": "07",
+    "2": "08"
+  },
+  "legacy": {
+    "filename": "left_right_global.joblib",
+    "sha256": "680cfa0057ef28a3f5322ed1df42d4b69cc1d679d6d723ec905d3554941e465a"
+  }
+}

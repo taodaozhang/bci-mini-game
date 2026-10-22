@@ -1,0 +1,222 @@
+{
+  "protocol": {
+    "seed": 20261015,
+    "labels": {
+      "0": "left_hand_imagery",
+      "1": "right_hand_imagery"
+    },
+    "data_selection": {
+      "PhysioNet": "All 109 subjects, runs 4,8,12 only. T1=left, T2=right. First 4 seconds of each annotated imagery event. Reject events shorter than 4 seconds, nonfinite/flat windows, or missing required channels. Never stretch a short event.",
+      "BNCI2014_001": "All 9 subjects, T and E sessions. Original classes 1,2 only; trial start +2 to +6 seconds. Keep expert artifact flags."
+    },
+    "raw_epoch_channels": [
+      "FC3",
+      "FCz",
+      "FC4",
+      "C3",
+      "Cz",
+      "C4",
+      "CP3",
+      "CPz",
+      "CP4"
+    ],
+    "epoch_samples": 1000,
+    "fs": 250,
+    "resampling": "EDF physical units -> microvolt; per-epoch scipy resample_poly to 250Hz; offline evaluation only.",
+    "old_model": "Frozen original BNCI2014-004 model, using native-reference C3/Cz/C4 channels. No fitting, threshold tuning, label flipping or target normalization. Reference/montage differs from original bipolar training; exploratory transfer with acquisition mismatch.",
+    "new_models": "Nine common motor channels, average reference over these nine within each epoch. Fourth-order causal Butterworth bank; zero initial state per epoch; discard first 0.5s. Fit CSP/scaler/classifier only on clean source training trials.",
+    "candidate_grid": {
+      "features": [
+        "bandpower",
+        "fbcsp"
+      ],
+      "classifiers": [
+        "lda",
+        "linear_svm",
+        "rbf_svm_c1",
+        "rbf_svm_c10"
+      ],
+      "selection_metric": "validation subject-macro balanced accuracy"
+    },
+    "cross_subject": {
+      "PhysioNet": "5 fixed subject folds; in each round test one fold, validate next fold, train remaining three. Each eligible person tested exactly once.",
+      "BNCI2014_001": "9 rounds; hold one person for test and next person for validation; train remaining seven. Each person tested exactly once."
+    },
+    "cross_dataset": "Fixed FBCSP + shrinkage LDA, with no target data or labels used for fit/selection. Train all clean source trials; test all target trials. Two directions. Hyperparameters fixed before evaluation.",
+    "reporting": "Report all eligible test trials as primary, clean-only secondary where flags exist, pooled/macro accuracy, per-person scores, confusion matrices, predictions. Subject bootstrap CI resamples people, not correlated epochs. No score-based exclusions."
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyedflib": "0.1.42",
+    "joblib": "1.6.0"
+  },
+  "experiments": [
+    {
+      "n": 4917,
+      "accuracy": 0.5539963392312386,
+      "balanced_accuracy": 0.5511992285650655,
+      "kappa": 0.10296809687063169,
+      "confusion_matrix_left_right": [
+        [
+          2198,
+          281
+        ],
+        [
+          1912,
+          526
+        ]
+      ],
+      "n_subjects": 109,
+      "subject_macro_accuracy": 0.5540985491251064,
+      "subject_macro_balanced_accuracy": 0.5506593971571345,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.5383688004414706,
+        0.5713411395461129
+      ],
+      "method": "Frozen original BNCI2014-004 model, using native-reference C3/Cz/C4 channels. No fitting, threshold tuning, label flipping or target normalization. Reference/montage differs from original bipolar training; exploratory transfer with acquisition mismatch.",
+      "experiment": "PhysioNet_frozen_old"
+    },
+    {
+      "n": 2592,
+      "accuracy": 0.5825617283950617,
+      "balanced_accuracy": 0.5825617283950617,
+      "kappa": 0.1651234567901234,
+      "confusion_matrix_left_right": [
+        [
+          468,
+          828
+        ],
+        [
+          254,
+          1042
+        ]
+      ],
+      "n_subjects": 9,
+      "subject_macro_accuracy": 0.5825617283950617,
+      "subject_macro_balanced_accuracy": 0.5825617283950617,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.5378086419753088,
+        0.6566647376543207
+      ],
+      "clean_test_accuracy": 0.5878090366581415,
+      "clean_test_n": 2346,
+      "method": "Frozen original BNCI2014-004 model, using native-reference C3/Cz/C4 channels. No fitting, threshold tuning, label flipping or target normalization. Reference/montage differs from original bipolar training; exploratory transfer with acquisition mismatch.",
+      "experiment": "BNCI2014_001_frozen_old"
+    },
+    {
+      "n": 4917,
+      "accuracy": 0.6182631685987391,
+      "balanced_accuracy": 0.6180856851366077,
+      "kappa": 0.2362426871003741,
+      "confusion_matrix_left_right": [
+        [
+          1585,
+          894
+        ],
+        [
+          983,
+          1455
+        ]
+      ],
+      "n_subjects": 109,
+      "subject_macro_accuracy": 0.6183708506740857,
+      "subject_macro_balanced_accuracy": 0.6187246312074379,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.5967494232523203,
+        0.6414837360986564
+      ],
+      "method": "Nested subject-isolated evaluation; one test fold and one validation fold, remaining people train. Every eligible person tested once.",
+      "n_folds": 5,
+      "experiment": "PhysioNet_unseen_subjects"
+    },
+    {
+      "n": 2592,
+      "accuracy": 0.6697530864197531,
+      "balanced_accuracy": 0.6697530864197532,
+      "kappa": 0.3395061728395061,
+      "confusion_matrix_left_right": [
+        [
+          920,
+          376
+        ],
+        [
+          480,
+          816
+        ]
+      ],
+      "n_subjects": 9,
+      "subject_macro_accuracy": 0.6697530864197531,
+      "subject_macro_balanced_accuracy": 0.6697530864197531,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.597993827160494,
+        0.746141975308642
+      ],
+      "clean_test_accuracy": 0.6705029838022165,
+      "clean_test_n": 2346,
+      "method": "Nested subject-isolated evaluation; one test fold and one validation fold, remaining people train. Every eligible person tested once.",
+      "n_folds": 9,
+      "experiment": "BNCI2014_001_unseen_subjects"
+    },
+    {
+      "n": 4917,
+      "accuracy": 0.5912141549725443,
+      "balanced_accuracy": 0.5914604747144265,
+      "kappa": 0.18282049166190262,
+      "confusion_matrix_left_right": [
+        [
+          1393,
+          1086
+        ],
+        [
+          924,
+          1514
+        ]
+      ],
+      "n_subjects": 109,
+      "subject_macro_accuracy": 0.5910349267664574,
+      "subject_macro_balanced_accuracy": 0.5911589569573077,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.5703094318364719,
+        0.6137294114491121
+      ],
+      "method": "Fixed FBCSP + automatic-shrinkage LDA; no target fit or parameter selection.",
+      "train_dataset": "BNCI2014_001",
+      "test_dataset": "PhysioNet",
+      "training_trials": 2346,
+      "experiment": "BNCI2014_001_to_PhysioNet"
+    },
+    {
+      "n": 2592,
+      "accuracy": 0.6624228395061729,
+      "balanced_accuracy": 0.6624228395061729,
+      "kappa": 0.32484567901234573,
+      "confusion_matrix_left_right": [
+        [
+          943,
+          353
+        ],
+        [
+          522,
+          774
+        ]
+      ],
+      "n_subjects": 9,
+      "subject_macro_accuracy": 0.6624228395061729,
+      "subject_macro_balanced_accuracy": 0.6624228395061729,
+      "subject_macro_accuracy_bootstrap_95_percent": [
+        0.572511574074074,
+        0.7584972993827159
+      ],
+      "clean_test_accuracy": 0.6662404092071611,
+      "clean_test_n": 2346,
+      "method": "Fixed FBCSP + automatic-shrinkage LDA; no target fit or parameter selection.",
+      "train_dataset": "PhysioNet",
+      "test_dataset": "BNCI2014_001",
+      "training_trials": 4917,
+      "experiment": "PhysioNet_to_BNCI2014_001"
+    }
+  ]
+}

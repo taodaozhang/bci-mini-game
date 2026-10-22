@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "datasets": [
+    "PhysioNet",
+    "BNCI2014_001"
+  ],
+  "checks": [
+    "all original trial IDs/labels/flags/people preserved",
+    "nine common channels match old waveforms",
+    "old baseline predictions exactly reproduced",
+    "all reported method scores recomputed",
+    "all train/validation/test people disjoint",
+    "every eligible person tested exactly once",
+    "final choices equal validation-score winner",
+    "all saved selected models reproduce held-out predictions",
+    "all saved neural models are actual Adam-trained MLPs and reproduce predictions",
+    "all offline-aligned models reproduce predictions using held-out signals and subject IDs only"
+  ]
+}

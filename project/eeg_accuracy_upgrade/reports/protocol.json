@@ -1,0 +1,66 @@
+{
+  "seed": 20261019,
+  "evaluation": "Same exact trial IDs, labels, artifact flags and held-out subject folds as the prior 9-channel benchmark. Train/validation/test people are disjoint. Previously inspected public benchmark: repeated development evaluation, not a new blind test.",
+  "channels": [
+    "Fz",
+    "FC3",
+    "FC1",
+    "FCz",
+    "FC2",
+    "FC4",
+    "C5",
+    "C3",
+    "C1",
+    "Cz",
+    "C2",
+    "C4",
+    "C6",
+    "CP3",
+    "CP1",
+    "CPz",
+    "CP2",
+    "CP4",
+    "P1",
+    "Pz",
+    "P2",
+    "POz"
+  ],
+  "comparison": "Previous 9-channel baseline plus 9/22-channel logarithmic covariance features with shrinkage LDA, RBF SVM(C=1), ExtraTrees(300 trees,min_samples_leaf=5), and MLP(64,16). Nine-channel controls distinguish feature/algorithm changes from extra electrodes.",
+  "bands": [
+    [
+      8,
+      12
+    ],
+    [
+      12,
+      20
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      8,
+      30
+    ]
+  ],
+  "features": "Each epoch independently: common average reference, causal order-4 Butterworth, discard first 0.5s, covariance/trace, fixed 5% diagonal shrinkage, matrix logarithm, weighted symmetric vectorization. No target batch normalization or label-based feature selection.",
+  "neural": {
+    "method": "Backpropagation + Adam",
+    "hidden_layers": [
+      64,
+      16
+    ],
+    "activation": "relu",
+    "learning_rate": 0.0005,
+    "l2_alpha": 0.1,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "early_stop_patience": 15,
+    "minimum_epochs": 15,
+    "criterion": "validation subject-macro balanced accuracy",
+    "sample_weight": "equal total weight per source training person"
+  },
+  "selection": "All scalers and model weights fit training data only. Select family/channel count/checkpoint solely by validation subject-macro balanced accuracy; ties keep earlier candidate. Majority vote combines validation-selected linear/SVM, tree, and neural models. Final winner among baseline, 8 new models and majority vote selected before any outer-test predictions.",
+  "deployment": "Save validation-selected model and validation-selected neural model for every fold. Demo uses fixed fold 0, never highest test-scoring fold. Labels 0=left,1=right. No calibrated confidence output."
+}

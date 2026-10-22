@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "version": "1.0.0",
+  "exe_sha256": "6314295e4ed33b1d5c2eacda8e933b89039ea706836cbca13ff63284a2e57fb1",
+  "exe_bytes": 182042390,
+  "architecture": "Windows x64",
+  "unit_regression_cases": 9,
+  "original_models_prediction_equivalence": 28,
+  "frozen_gui_checks": [
+    "A03E: 144 results displayed",
+    "known person matched to held-out fold",
+    "example uses aligned mode",
+    "selected trial waveforms rendered",
+    "open button visible within window",
+    "export button visible within window",
+    "footer visible within window",
+    "mode change invalidates old results",
+    "neural mode predicts",
+    "CSV exported",
+    "B01E: 320 results displayed",
+    "3-channel model matched automatically",
+    "22-channel selector disabled for 3-channel input",
+    "missing file error surfaced",
+    "failed import clears stale results"
+  ],
+  "frozen_v73_ordinary_prediction_equivalence": true,
+  "example_original_hashes_match": true
+}

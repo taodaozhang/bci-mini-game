@@ -1,0 +1,42 @@
+[
+  {
+    "features": "bandpower",
+    "classifier": "lda",
+    "validation_balanced_accuracy": 0.6274509803921569
+  },
+  {
+    "features": "bandpower",
+    "classifier": "linear_svm",
+    "validation_balanced_accuracy": 0.5980392156862745
+  },
+  {
+    "features": "bandpower",
+    "classifier": "rbf_svm_c1",
+    "validation_balanced_accuracy": 0.5980392156862745
+  },
+  {
+    "features": "bandpower",
+    "classifier": "rbf_svm_c10",
+    "validation_balanced_accuracy": 0.5980392156862745
+  },
+  {
+    "features": "fbcsp",
+    "classifier": "lda",
+    "validation_balanced_accuracy": 0.5588235294117647
+  },
+  {
+    "features": "fbcsp",
+    "classifier": "linear_svm",
+    "validation_balanced_accuracy": 0.5392156862745098
+  },
+  {
+    "features": "fbcsp",
+    "classifier": "rbf_svm_c1",
+    "validation_balanced_accuracy": 0.5588235294117647
+  },
+  {
+    "features": "fbcsp",
+    "classifier": "rbf_svm_c10",
+    "validation_balanced_accuracy": 0.5196078431372548
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "archive_name": "bci-mini-game-full-2026-10-22.zip",
+  "archive_bytes": 4151625306,
+  "archive_sha256": "e085955d35ca0916d5bdbc04f171d4cc5dd5819338e45ceaa31d153c411536d0",
+  "parts": [
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.001",
+      "bytes": 1073741824,
+      "sha256": "96aa7cbbb6adf0c812a32ca52e9553029685f504f17cffeefac4f8364c556879"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.002",
+      "bytes": 1073741824,
+      "sha256": "956a832d6b5775cc090fba9ad52353100ed0f9624c5f5540b967c0fd16294f07"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.003",
+      "bytes": 1073741824,
+      "sha256": "617317dd524f6ee5b1ac10840c58d5f1a293e60b0830d6b1dcab2b02fdbc4cfa"
+    },
+    {
+      "name": "bci-mini-game-full-2026-10-22.zip.004",
+      "bytes": 930399834,
+      "sha256": "22fa0d4fca976c8b6249238bfa58da2d1d66117ee4c381fa4c014a3ebe01ebff"
+    }
+  ],
+  "restore_folder": "脑机小游戏",
+  "snapshot_date": "2026-10-22"
+}

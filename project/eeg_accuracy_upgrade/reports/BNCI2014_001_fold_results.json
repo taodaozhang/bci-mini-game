@@ -1,0 +1,407 @@
+[
+  {
+    "fold": 0,
+    "train_subjects": [
+      7,
+      9,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      5
+    ],
+    "test_subjects": [
+      3
+    ],
+    "selected": "baseline_9",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.5767950410377087,
+      "logcov_lda_9": 0.5152671755725191,
+      "logcov_svm_9": 0.5305917465419273,
+      "logcov_trees_9": 0.5346955174195029,
+      "logcov_mlp_9": 0.5344659358319462,
+      "logcov_lda_22": 0.5467772484646731,
+      "logcov_svm_22": 0.5574240945876141,
+      "logcov_trees_22": 0.5346955174195029,
+      "logcov_mlp_22": 0.5231303449463353,
+      "majority_vote": 0.5382253343281869
+    },
+    "training_accuracies": {
+      "baseline_9": 0.7981194690265486,
+      "logcov_lda_9": 0.7948008849557522,
+      "logcov_svm_9": 0.9358407079646017,
+      "logcov_trees_9": 0.9983407079646017,
+      "logcov_mlp_9": 0.8019911504424779,
+      "logcov_lda_22": 0.9369469026548672,
+      "logcov_svm_22": 0.9867256637168141,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9900442477876106,
+      "majority_vote": 0.9883849557522124
+    },
+    "selected_test_accuracy": 0.8125
+  },
+  {
+    "fold": 1,
+    "train_subjects": [
+      3,
+      9,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      7
+    ],
+    "test_subjects": [
+      5
+    ],
+    "selected": "majority_vote",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.5923510466988727,
+      "logcov_lda_9": 0.5656199677938809,
+      "logcov_svm_9": 0.6165056360708534,
+      "logcov_trees_9": 0.595571658615137,
+      "logcov_mlp_9": 0.6661835748792271,
+      "logcov_lda_22": 0.5958937198067633,
+      "logcov_svm_22": 0.6620772946859903,
+      "logcov_trees_22": 0.6438808373590983,
+      "logcov_mlp_22": 0.6371980676328503,
+      "majority_vote": 0.6695652173913043
+    },
+    "training_accuracies": {
+      "baseline_9": 0.9237147595356551,
+      "logcov_lda_9": 0.8253178551686015,
+      "logcov_svm_9": 0.9425096738529575,
+      "logcov_trees_9": 0.996130458817026,
+      "logcov_mlp_9": 0.9751243781094527,
+      "logcov_lda_22": 0.9546710889994472,
+      "logcov_svm_22": 0.9845218352681039,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9988944168048646,
+      "majority_vote": 0.9939192924267551
+    },
+    "selected_test_accuracy": 0.5590277777777778
+  },
+  {
+    "fold": 2,
+    "train_subjects": [
+      3,
+      5,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      9
+    ],
+    "test_subjects": [
+      7
+    ],
+    "selected": "logcov_mlp_22",
+    "neural_selected": "logcov_mlp_22",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.6160619703389831,
+      "logcov_lda_9": 0.5167505296610169,
+      "logcov_svm_9": 0.5603813559322034,
+      "logcov_trees_9": 0.5860037076271186,
+      "logcov_mlp_9": 0.6373146186440678,
+      "logcov_lda_22": 0.5850768008474576,
+      "logcov_svm_22": 0.6196371822033898,
+      "logcov_trees_22": 0.638771186440678,
+      "logcov_mlp_22": 0.6398305084745763,
+      "majority_vote": 0.6232123940677966
+    },
+    "training_accuracies": {
+      "baseline_9": 0.8149972632731254,
+      "logcov_lda_9": 0.7941981390257252,
+      "logcov_svm_9": 0.9272030651340997,
+      "logcov_trees_9": 0.9961685823754789,
+      "logcov_mlp_9": 0.6945812807881774,
+      "logcov_lda_22": 0.9315818281335523,
+      "logcov_svm_22": 0.9786535303776683,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 1.0,
+      "majority_vote": 1.0
+    },
+    "selected_test_accuracy": 0.6006944444444444
+  },
+  {
+    "fold": 3,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      6
+    ],
+    "test_subjects": [
+      9
+    ],
+    "selected": "logcov_trees_9",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.7277195281782438,
+      "logcov_lda_9": 0.6959780471821756,
+      "logcov_svm_9": 0.7242382044560944,
+      "logcov_trees_9": 0.7450851900393185,
+      "logcov_mlp_9": 0.6827080602883355,
+      "logcov_lda_22": 0.6220920707732635,
+      "logcov_svm_22": 0.6435534076015728,
+      "logcov_trees_22": 0.7025720838794234,
+      "logcov_mlp_22": 0.6341333551769331,
+      "majority_vote": 0.7235009829619921
+    },
+    "training_accuracies": {
+      "baseline_9": 0.8137307078233103,
+      "logcov_lda_9": 0.7903139968068121,
+      "logcov_svm_9": 0.9329430548163917,
+      "logcov_trees_9": 0.9957424161788185,
+      "logcov_mlp_9": 0.8637573177221927,
+      "logcov_lda_22": 0.9329430548163917,
+      "logcov_svm_22": 0.9845662586482171,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9803086748270357,
+      "majority_vote": 0.9393294305481639
+    },
+    "selected_test_accuracy": 0.6076388888888888
+  },
+  {
+    "fold": 4,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      4
+    ],
+    "test_subjects": [
+      6
+    ],
+    "selected": "logcov_mlp_22",
+    "neural_selected": "logcov_mlp_22",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.6167022127432684,
+      "logcov_lda_9": 0.5124966675553186,
+      "logcov_svm_9": 0.557951213009864,
+      "logcov_trees_9": 0.5787123433751,
+      "logcov_mlp_9": 0.545554518794988,
+      "logcov_lda_22": 0.5499866702212743,
+      "logcov_svm_22": 0.557951213009864,
+      "logcov_trees_22": 0.6077379365502533,
+      "logcov_mlp_22": 0.6204345507864569,
+      "majority_vote": 0.591109037589976
+    },
+    "training_accuracies": {
+      "baseline_9": 1.0,
+      "logcov_lda_9": 0.8031914893617021,
+      "logcov_svm_9": 0.9377659574468085,
+      "logcov_trees_9": 0.9946808510638298,
+      "logcov_mlp_9": 0.8287234042553191,
+      "logcov_lda_22": 0.9452127659574469,
+      "logcov_svm_22": 0.9882978723404255,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9547872340425532,
+      "majority_vote": 0.9797872340425532
+    },
+    "selected_test_accuracy": 0.6493055555555556
+  },
+  {
+    "fold": 5,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      8
+    ],
+    "test_subjects": [
+      4
+    ],
+    "selected": "logcov_trees_9",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.8381388511985526,
+      "logcov_lda_9": 0.5568181818181818,
+      "logcov_svm_9": 0.7121212121212122,
+      "logcov_trees_9": 0.8788444142921754,
+      "logcov_mlp_9": 0.8220262324739936,
+      "logcov_lda_22": 0.5833333333333334,
+      "logcov_svm_22": 0.8106625961103573,
+      "logcov_trees_22": 0.8787878787878788,
+      "logcov_mlp_22": 0.7386928991406603,
+      "majority_vote": 0.8485413839891451
+    },
+    "training_accuracies": {
+      "baseline_9": 0.9193460490463216,
+      "logcov_lda_9": 0.7858310626702997,
+      "logcov_svm_9": 0.9253405994550409,
+      "logcov_trees_9": 0.997275204359673,
+      "logcov_mlp_9": 0.7215258855585831,
+      "logcov_lda_22": 0.9253405994550409,
+      "logcov_svm_22": 0.9814713896457765,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.8664850136239782,
+      "majority_vote": 0.9820163487738419
+    },
+    "selected_test_accuracy": 0.5729166666666666
+  },
+  {
+    "fold": 6,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      4,
+      2
+    ],
+    "validation_subjects": [
+      1
+    ],
+    "test_subjects": [
+      8
+    ],
+    "selected": "majority_vote",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.8425488180883864,
+      "logcov_lda_9": 0.7995375128468654,
+      "logcov_svm_9": 0.8351233299075026,
+      "logcov_trees_9": 0.8384121274409044,
+      "logcov_mlp_9": 0.8529804727646455,
+      "logcov_lda_22": 0.7559609455292908,
+      "logcov_svm_22": 0.8131294964028777,
+      "logcov_trees_22": 0.8276464542651593,
+      "logcov_mlp_22": 0.7843782117163411,
+      "majority_vote": 0.8565519013360741
+    },
+    "training_accuracies": {
+      "baseline_9": 0.9161576901721266,
+      "logcov_lda_9": 0.7406996113270405,
+      "logcov_svm_9": 0.9183786785119378,
+      "logcov_trees_9": 0.9988895058300944,
+      "logcov_mlp_9": 0.8795113825652415,
+      "logcov_lda_22": 0.9194891726818434,
+      "logcov_svm_22": 0.9755691282620766,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.920599666851749,
+      "majority_vote": 0.9394780677401444
+    },
+    "selected_test_accuracy": 0.6458333333333334
+  },
+  {
+    "fold": 7,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      4,
+      8
+    ],
+    "validation_subjects": [
+      2
+    ],
+    "test_subjects": [
+      1
+    ],
+    "selected": "baseline_9",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.56972049689441,
+      "logcov_lda_9": 0.5019668737060041,
+      "logcov_svm_9": 0.5083333333333333,
+      "logcov_trees_9": 0.5297101449275363,
+      "logcov_mlp_9": 0.5536231884057972,
+      "logcov_lda_22": 0.5190993788819875,
+      "logcov_svm_22": 0.5067287784679089,
+      "logcov_trees_22": 0.5142857142857142,
+      "logcov_mlp_22": 0.516511387163561,
+      "majority_vote": 0.5331262939958592
+    },
+    "training_accuracies": {
+      "baseline_9": 1.0,
+      "logcov_lda_9": 0.7903856903297932,
+      "logcov_svm_9": 0.9385131358300727,
+      "logcov_trees_9": 0.9960871995528228,
+      "logcov_mlp_9": 0.840134153158189,
+      "logcov_lda_22": 0.936836221352711,
+      "logcov_svm_22": 0.9832308552263834,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9977641140301845,
+      "majority_vote": 0.9670206819452208
+    },
+    "selected_test_accuracy": 0.8229166666666666
+  },
+  {
+    "fold": 8,
+    "train_subjects": [
+      5,
+      7,
+      9,
+      6,
+      4,
+      8,
+      1
+    ],
+    "validation_subjects": [
+      3
+    ],
+    "test_subjects": [
+      2
+    ],
+    "selected": "majority_vote",
+    "neural_selected": "logcov_mlp_9",
+    "validation_subject_macro_balanced_accuracies": {
+      "baseline_9": 0.8143115942028986,
+      "logcov_lda_9": 0.6918691389599319,
+      "logcov_svm_9": 0.8539535379369139,
+      "logcov_trees_9": 0.8984441602728048,
+      "logcov_mlp_9": 0.9197037510656436,
+      "logcov_lda_22": 0.6975703324808185,
+      "logcov_svm_22": 0.8586956521739131,
+      "logcov_trees_22": 0.7934782608695652,
+      "logcov_mlp_22": 0.8114876385336743,
+      "majority_vote": 0.9201832907075874
+    },
+    "training_accuracies": {
+      "baseline_9": 0.7931995540691192,
+      "logcov_lda_9": 0.8099219620958752,
+      "logcov_svm_9": 0.9364548494983278,
+      "logcov_trees_9": 0.9983277591973244,
+      "logcov_mlp_9": 0.7190635451505016,
+      "logcov_lda_22": 0.9481605351170569,
+      "logcov_svm_22": 0.9871794871794872,
+      "logcov_trees_22": 1.0,
+      "logcov_mlp_22": 0.9860646599777034,
+      "majority_vote": 0.9882943143812709
+    },
+    "selected_test_accuracy": 0.5277777777777778
+  }
+]

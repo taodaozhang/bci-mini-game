@@ -1,0 +1,114 @@
+{
+  "page": "https://bnci-horizon-2020.eu/database/data-sets",
+  "license": "CC BY-ND 4.0",
+  "files": [
+    {
+      "file": "B01T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B01T.mat",
+      "bytes": 34203437,
+      "sha256": "0da6e77ab0dab5b4aa1d2d5a6a542ac02f6768d3b7a76b0abe896ec1cf259919"
+    },
+    {
+      "file": "B01E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B01E.mat",
+      "bytes": 18595217,
+      "sha256": "5effd365ae3733402286f2eea6b1ce482680a9f9ffc55c0b41bc63061a0161b5"
+    },
+    {
+      "file": "B02T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B02T.mat",
+      "bytes": 33060824,
+      "sha256": "1c4ace3eee8d72ca184fa6995a9466939b71175b8b3a129bdaa838a85adf6473"
+    },
+    {
+      "file": "B02E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B02E.mat",
+      "bytes": 16538614,
+      "sha256": "f057ada16e36e7d58e5670b705ab41aec1175afde0a1e1e0b96cae58dbc7a083"
+    },
+    {
+      "file": "B03T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B03T.mat",
+      "bytes": 35581243,
+      "sha256": "4ae1b23b4b4359151787a1a61d3acea128719677c49bfaf0113748cffece3b98"
+    },
+    {
+      "file": "B03E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B03E.mat",
+      "bytes": 19310824,
+      "sha256": "6fca9dd9cbbdbb53dd8fb2798feed8e22669a91d1259fdac6695855756181353"
+    },
+    {
+      "file": "B04T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B04T.mat",
+      "bytes": 35749247,
+      "sha256": "e7230d6d28a9e81d3afdf7ba5d363979e0186dbbc5a73f66d4b713be020ce960"
+    },
+    {
+      "file": "B04E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B04E.mat",
+      "bytes": 17900104,
+      "sha256": "a08bbc7efb12a29b9ac901c810a42f84053a268b567c0c5c705d401038c6d7f6"
+    },
+    {
+      "file": "B05T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B05T.mat",
+      "bytes": 35047531,
+      "sha256": "53166e2cf1a97576262b3f2f27395f489af6fda15ade5c3b3cdd2c89f7df0d79"
+    },
+    {
+      "file": "B05E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B05E.mat",
+      "bytes": 17493104,
+      "sha256": "a395a547e62241f6bf69b1b42828d394f997189271ebd90d5ff4dde4e4e9e757"
+    },
+    {
+      "file": "B06T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B06T.mat",
+      "bytes": 36512412,
+      "sha256": "d69f679ea33121a9202901d5b62efb50f8ed004fa8ad70d10a59351493ffdad8"
+    },
+    {
+      "file": "B06E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B06E.mat",
+      "bytes": 19381269,
+      "sha256": "c13d76a3bcd6fd445482e3268d38ebd51f28ea286869fc22c47c6d39857b2f2f"
+    },
+    {
+      "file": "B07T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B07T.mat",
+      "bytes": 33061422,
+      "sha256": "0b79522d66710a88f852b83802c7bffd015226d765480f60f16b6bedc5ea33c2"
+    },
+    {
+      "file": "B07E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B07E.mat",
+      "bytes": 17883151,
+      "sha256": "29900042a1adee5f722410f8e52e46961f356b68d5a7906df05df04319fde2f1"
+    },
+    {
+      "file": "B08T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B08T.mat",
+      "bytes": 38046816,
+      "sha256": "d96bdfd0c8331f238740c10ff03121dc3e3a20a4b1254840c5cc4878aa149b67"
+    },
+    {
+      "file": "B08E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B08E.mat",
+      "bytes": 18959016,
+      "sha256": "d616cd7f843e899fb01cd1fa86a2a8dd0fd2f2e4db94ab3a09e6b9f8d5a6399a"
+    },
+    {
+      "file": "B09T.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B09T.mat",
+      "bytes": 33324824,
+      "sha256": "4f017991a64ceabb2ca73abf6f3c620b2b8fd7468184f52a8444dfdec1ee2adc"
+    },
+    {
+      "file": "B09E.mat",
+      "url": "https://lampx.tugraz.at/~bci/database/004-2014/B09E.mat",
+      "bytes": 17332216,
+      "sha256": "99f3937393a3c4982beda69850cf3c6cde98dd33e1733a9d67a787e10f407bfd"
+    }
+  ]
+}

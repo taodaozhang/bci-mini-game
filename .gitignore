@@ -1,0 +1,27 @@
+# Large artifacts are preserved in the full Release snapshot.
+*.exe
+*.mat
+*.edf
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pickle
+*.pyc
+*.pyd
+*.dll
+*.zip
+*.zip.*
+*.7z
+__pycache__/
+.venv/
+venv/
+node_modules/
+.env
+.env.*
+auth/
+hosts.yml
+*.pem
+*.key
+restore-*/
+restored-*/

@@ -1,0 +1,7 @@
+{
+  "condition": "Offline transductive adaptation, separate from strict no-target-fit evaluation. Unlabeled target epochs are used to estimate each held-out participant covariance reference. No target labels fit weights or select candidates.",
+  "selection": "Same people-isolated folds. Four fixed candidates: 9/22-channel per-band covariance whitening + log covariance + shrinkage LDA/RBF SVM(C=1). Choose by validation subject-macro balanced accuracy only.",
+  "signal_processing": "Trace-normalized covariance + fixed 5% shrinkage. Each person and frequency band centered with mean covariance inverse square root. All available epochs for that person estimate their reference; predictions therefore depend on batch composition.",
+  "warning": "Cannot directly call this zero-calibration single-trial or streaming accuracy. Previously inspected public benchmark, not fresh blind evaluation.",
+  "reference": "Inspired by Euclidean alignment: He and Wu, https://arxiv.org/abs/1808.05464 . Here whitening is applied to per-band regularized covariances; not an exact paper reproduction."
+}

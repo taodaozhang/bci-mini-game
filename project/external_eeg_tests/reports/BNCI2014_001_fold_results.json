@@ -1,0 +1,245 @@
+[
+  {
+    "fold": 0,
+    "train_subjects": [
+      7,
+      9,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      5
+    ],
+    "test_subjects": [
+      3
+    ],
+    "training_trials": 1808,
+    "validation_trials": 264,
+    "test_trials": 288,
+    "selection": {
+      "features": "fbcsp",
+      "classifier": "linear_svm",
+      "validation_subject_macro_balanced_accuracy": 0.5767950410377087
+    },
+    "test_accuracy": 0.8125
+  },
+  {
+    "fold": 1,
+    "train_subjects": [
+      3,
+      9,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      7
+    ],
+    "test_subjects": [
+      5
+    ],
+    "training_trials": 1809,
+    "validation_trials": 273,
+    "test_trials": 288,
+    "selection": {
+      "features": "fbcsp",
+      "classifier": "rbf_svm_c1",
+      "validation_subject_macro_balanced_accuracy": 0.5923510466988727
+    },
+    "test_accuracy": 0.5208333333333334
+  },
+  {
+    "fold": 2,
+    "train_subjects": [
+      3,
+      5,
+      6,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      9
+    ],
+    "test_subjects": [
+      7
+    ],
+    "training_trials": 1827,
+    "validation_trials": 246,
+    "test_trials": 288,
+    "selection": {
+      "features": "fbcsp",
+      "classifier": "lda",
+      "validation_subject_macro_balanced_accuracy": 0.6160619703389831
+    },
+    "test_accuracy": 0.6354166666666666
+  },
+  {
+    "fold": 3,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      4,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      6
+    ],
+    "test_subjects": [
+      9
+    ],
+    "training_trials": 1879,
+    "validation_trials": 221,
+    "test_trials": 288,
+    "selection": {
+      "features": "fbcsp",
+      "classifier": "lda",
+      "validation_subject_macro_balanced_accuracy": 0.7277195281782438
+    },
+    "test_accuracy": 0.6145833333333334
+  },
+  {
+    "fold": 4,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      8,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      4
+    ],
+    "test_subjects": [
+      6
+    ],
+    "training_trials": 1880,
+    "validation_trials": 245,
+    "test_trials": 288,
+    "selection": {
+      "features": "bandpower",
+      "classifier": "rbf_svm_c10",
+      "validation_subject_macro_balanced_accuracy": 0.6167022127432684
+    },
+    "test_accuracy": 0.5868055555555556
+  },
+  {
+    "fold": 5,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      1,
+      2
+    ],
+    "validation_subjects": [
+      8
+    ],
+    "test_subjects": [
+      4
+    ],
+    "training_trials": 1835,
+    "validation_trials": 266,
+    "test_trials": 288,
+    "selection": {
+      "features": "bandpower",
+      "classifier": "rbf_svm_c1",
+      "validation_subject_macro_balanced_accuracy": 0.8381388511985526
+    },
+    "test_accuracy": 0.6284722222222222
+  },
+  {
+    "fold": 6,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      4,
+      2
+    ],
+    "validation_subjects": [
+      1
+    ],
+    "test_subjects": [
+      8
+    ],
+    "training_trials": 1801,
+    "validation_trials": 279,
+    "test_trials": 288,
+    "selection": {
+      "features": "bandpower",
+      "classifier": "rbf_svm_c1",
+      "validation_subject_macro_balanced_accuracy": 0.8425488180883864
+    },
+    "test_accuracy": 0.8298611111111112
+  },
+  {
+    "fold": 7,
+    "train_subjects": [
+      3,
+      5,
+      7,
+      9,
+      6,
+      4,
+      8
+    ],
+    "validation_subjects": [
+      2
+    ],
+    "test_subjects": [
+      1
+    ],
+    "training_trials": 1789,
+    "validation_trials": 278,
+    "test_trials": 288,
+    "selection": {
+      "features": "bandpower",
+      "classifier": "rbf_svm_c10",
+      "validation_subject_macro_balanced_accuracy": 0.56972049689441
+    },
+    "test_accuracy": 0.8229166666666666
+  },
+  {
+    "fold": 8,
+    "train_subjects": [
+      5,
+      7,
+      9,
+      6,
+      4,
+      8,
+      1
+    ],
+    "validation_subjects": [
+      3
+    ],
+    "test_subjects": [
+      2
+    ],
+    "training_trials": 1794,
+    "validation_trials": 274,
+    "test_trials": 288,
+    "selection": {
+      "features": "fbcsp",
+      "classifier": "lda",
+      "validation_subject_macro_balanced_accuracy": 0.8143115942028986
+    },
+    "test_accuracy": 0.5763888888888888
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "original_files_hash_verified": 345,
+  "experiments_verified": 6,
+  "checks": [
+    "raw file sizes and SHA-256 match download manifest",
+    "correct trial identities and labels in each prediction table",
+    "all reported pooled and macro accuracies recomputed",
+    "train/validation/test subjects disjoint in every fold",
+    "each eligible person independently tested exactly once",
+    "first-fold three-way NPZ partitions disjoint and complete",
+    "reloaded model predictions exactly match every saved prediction",
+    "single-epoch public prediction interface agrees with batch inference"
+  ]
+}

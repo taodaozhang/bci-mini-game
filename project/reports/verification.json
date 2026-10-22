@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "subject-session isolation",
+    "all 10 models reload",
+    "reloaded predictions equal stored test predictions",
+    "accuracies match report",
+    "single-window prediction",
+    "invalid input rejected"
+  ],
+  "single_window_seconds_including_model_load": 0.005572699999902397
+}
